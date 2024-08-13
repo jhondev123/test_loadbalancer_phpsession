@@ -1,0 +1,1 @@
+projeto para testar o comportamento da sessão em um cenário que a aplicação é dividida em dois containers, uma solução que encontrei foi usar iphash para o nginx sempre direcionar para o mesmo servidor e o outro que não consegui finalizar era armazenar a sessão no redis, por algum motivo o app2 não estava encontrando a sessão
